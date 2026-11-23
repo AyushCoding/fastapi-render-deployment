@@ -1,0 +1,10 @@
+# requirements.txt lists the Python dependencies required to install and run a project in another environment.
+
+# On your laptop, you already installed:
+# - fastapi
+# - uvicorn
+# But when you deploy to Render, Render gets your source code, not your local venv. So Render needs to know:
+# “Which packages should I install before starting this application?”
+
+fastapi
+uvicorn
