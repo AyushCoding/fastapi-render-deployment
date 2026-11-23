@@ -5,8 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI deployed successfully"}
-
+    return {"message": "FastAPI updated successfully"}
 
 @app.get("/users")
 def get_users():
